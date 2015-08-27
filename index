@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Budget Book User Login</title>
+</head>
+<body style="background-color:seashell;color:brown">
+
+<div id="header">
+<h1>Please log in below: </h1>
+</div>
+<form>
+       <h2 id="logintxt"><center>Log In</center></h2>
+       <h3 id="username">User Name:</h3>
+       <input name="Username" type="text" value="" maxlength="20" id="usernamebox" />
+       <h3 id="password">Password:</h3>
+       <input name="Password" type="password" id="passwordtxt" />
+       <h5 id="forgot">Forgot Password</h5>
+       <h5 id="register">Register</h5>
+     
+
+       <input type="submit" value="Login">
+</form>
+
+</body>
+</html>
